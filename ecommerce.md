@@ -202,3 +202,35 @@ dataLayer.push({
   }
 });
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Form tamamlandığında
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    event: "user_form_submit",
+    formID: "2", //Formun id bilgisi girilmeli
+    formCategory: "Araç Form", //Formun kategorisi girilmeli
+    formStep: 2, //Form eğer ki birden fazla adımlı ise adım bilgisi girilmeli
+});
+
+//Form input tıklandığında
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    event: "user_form_click",
+    formID: "2", //Formun id bilgisi girilmeli
+    formCategory: "Araç Form", //Formun kategorisi girilmeli
+    formStep: 2, //Form eğer ki birden fazla adımlı ise adım bilgisi girilmeli
+    formInput: "email" //Form içerisinde kullanıcının tıkladığı input değeri girilmelidir. 
+});
