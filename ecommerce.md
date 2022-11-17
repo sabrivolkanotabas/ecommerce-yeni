@@ -7,7 +7,7 @@
 
 ## 1.0.1 - view_item_list
 
-> Kullanıcıya belirli bir kategorideki öğelerin listesi sunulduğunda çalışmalıdır.
+<p>Kullanıcıya belirli bir kategorideki öğelerin listesi sunulduğunda çalışmalıdır.</p>
 
 ```
 dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.  
@@ -623,24 +623,87 @@ dataLayer.push({
 
 <br>
 
+## 2.0 | User-ID Entegrasyonu
 
+## 2.0.1 - login
 
+<p>Kullanıcı, web sitesinde oturum açtığında çalışmalıdır.</p>
 
-//Form tamamlandığında
+```
+window.dataLayer = window.dataLayer || []; 
+window.dataLayer.push({ 
+'event' : 'login',
+'userId' : {{dinamik değer}} //gönderilen değer, CRM panelindeki ‘üye id’ ile eşdeğer olmalıdır. 
+})
+
+```
+
+<br>
+
+## 2.0.2 - signup
+
+<p>Kullanıcı, web sitesinde kayıt işlemi gerçekleştirdiğinde çalışmalıdır.</p>
+
+```
+window.dataLayer = window.dataLayer || []; 
+window.dataLayer.push({ 
+'event' : 'signup',
+'userId' : {{dinamik değer}} //gönderilen değer, CRM panelindeki ‘üye id’ ile eşdeğer olmalıdır. 
+})
+
+```
+
+<br>
+
+## 3.0 | Gelişmiş Form Takibi Entegrasyonu
+
+## 3.0.1 - form_submission
+
+<p>Kullanıcı, web sitesinde bulunan formları tamamladığında çalışmalıdır.</p>
+
+```
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-    event: "user_form_submit",
-    formID: "2", //Formun id bilgisi girilmeli
-    formCategory: "Araç Form", //Formun kategorisi girilmeli
-    formStep: 2, //Form eğer ki birden fazla adımlı ise adım bilgisi girilmeli
+    event: "form_submision",
+    formID: "2", //Form için bir ID değeri gönderilmelidir.
+    formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
 });
 
-//Form input tıklandığında
+```
+
+<br>
+
+## 3.0.2 - form_step
+
+<p>Web sitesinde bulunan formlarda birden fazla adım bulunduğu durumlarda her bir adımda çalışmalıdır.</p>
+
+```
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
-    event: "user_form_click",
-    formID: "2", //Formun id bilgisi girilmeli
-    formCategory: "Araç Form", //Formun kategorisi girilmeli
-    formStep: 2, //Form eğer ki birden fazla adımlı ise adım bilgisi girilmeli
-    formInput: "email" //Form içerisinde kullanıcının tıkladığı input değeri girilmelidir. 
+    event: "form_step",
+    formID: "2345", //Form için bir ID değeri gönderilmelidir.
+    formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
+    formStep: "2", //Formda bulunulan adımın değeri gönderilmelidir.
 });
+
+```
+
+<br>
+
+## 3.0.3 - form_click
+
+<p>Web sitesinde bulunan formlardaki her form adımında input değeri girildiğinde çalışmalıdır.</p>
+
+```
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+    event: "form_click",
+    formID: "2345", //Form için bir ID değeri gönderilmelidir.
+    formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
+    formStep: 2, //Formda bulunulan adımın değeri gönderilmelidir.
+    formInput: "email" //Form içerisinde kullanıcının tıkladığı input alanı girilmelidir. 
+});
+
+```
+
+<br>
