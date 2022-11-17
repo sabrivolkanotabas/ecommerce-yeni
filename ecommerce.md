@@ -5,7 +5,7 @@
 
 ## 1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
 
-## 1.0.1 view_item_list
+## 1.0.1 - view_item_list
 
 > Kullanıcıya belirli bir kategorideki öğelerin listesi sunulduğunda çalışmalıdır.
 
@@ -62,7 +62,7 @@ dataLayer.push({
 ```
 <br>
 
-## 1.0.2 select_item
+## 1.0.2 - select_item
 
 <p>Kullanıcı, site içerisinde bir ürün tıklaması gerçekleştirdiğinde çalışmalıdır.</p>
 
@@ -97,7 +97,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.3 view_item
+## 1.0.3 - view_item
 
 <p>Kullanıcı, bir ürünü görüntülediğinde çalışmalıdır.</p>
 
@@ -135,7 +135,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.4 add_to_cart
+## 1.0.4 - add_to_cart
 
 <p>Kullanıcı, bir ürünü sepete eklediğinde çalışmalıdır.</p>
 
@@ -173,7 +173,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.5 add_to_wishlist
+## 1.0.5 - add_to_wishlist
 
 <p>Kullanıcı, bir ürünü favorilere eklediğinde çalışmalıdır.</p>
 
@@ -213,7 +213,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.6 view_cart
+## 1.0.6 - view_cart
 
 <p>Kullanıcı, sepeti görüntülediğinde çalışmalıdır.</p>
 
@@ -253,7 +253,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.7 remove_from_cart
+## 1.0.7 - remove_from_cart
 
 <p>Kullanıcı, sepetten ürün kaldırdığında çalışmalıdır.</p>
 
@@ -291,7 +291,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.8 begin_checkout
+## 1.0.8 - begin_checkout
 
 <p>Kullanıcı, ödeme adımlarını başlattığında çalışmalıdır.</p>
 
@@ -329,7 +329,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.9 add_shipping_info
+## 1.0.9 - add_shipping_info
 
 <p>Kullanıcı, teslimat bilgilerini tamamladığında çalışmalıdır.</p>
 
@@ -371,7 +371,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.10 add_payment_info
+## 1.0.10 - add_payment_info
 
 <p>Kullanıcı, ödeme bilgilerini tamamladığında çalışmalıdır.</p>
 
@@ -413,7 +413,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.11 purchase
+## 1.0.11 - purchase
 
 <p>Kullanıcı, satın alma işlemini tamamladığında çalışmalıdır.</p>
 
@@ -480,7 +480,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.12 refund (Kısmi Geri Ödeme)
+## 1.0.12 refund - (Kısmi Geri Ödeme)
 
 <p>Kullanıcı, siparişindeki bir veya daha fazla ürün için iade işlemi gerçekleştirdiğinde çalışmalıdır.</p>
 
@@ -525,7 +525,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.13 refund (Tam Geri Ödeme)
+## 1.0.13 refund - (Tam Geri Ödeme)
 
 <p>Kullanıcı, siparişi için iade işlemi gerçekleştirdiğinde çalışmalıdır.</p>
 
@@ -547,7 +547,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.14 view_promotion
+## 1.0.14 - view_promotion
 
 <p>Kullanıcı, web sitesindeki bir promosyonu görüntülediğinde çalışmalıdır.</p>
 
@@ -585,7 +585,7 @@ dataLayer.push({
 
 <br>
 
-## 1.0.15 select_promotion
+## 1.0.15 - select_promotion
 
 <p>Kullanıcı, web sitesindeki bir promosyona tıklama gerçekleştirdiğinde çalışmalıdır.</p>
 
