@@ -1,8 +1,10 @@
-<h1>E-Ticaret Dökümantasyonu</h1>
-<h2>view_item_list</h2>
-<p>Site içerisinde bir ürün listesi görünümünde çalışmalıdır</p>
+## E-Ticaret Dökümantasyonu
 
-```
+## view_item_list
+
+> Site içerisinde bir ürün listesi görünümünde çalışmalıdır
+
+
 dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.  
 dataLayer.push({  
   event: "view_item_list",  
