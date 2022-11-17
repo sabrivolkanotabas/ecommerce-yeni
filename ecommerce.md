@@ -2,9 +2,10 @@
 	# 1.0 E-Ticaret
 	# 2.0 User-ID
 	# 3.0 Formlar
-## E-Ticaret Dökümantasyonu
 
-## view_item_list
+## 1.0  |E-Ticaret Dökümantasyonu
+
+## 1.0.1 view_item_list
 
 > Site içerisinde bir ürün listesi görünümünde çalışmalıdır
 
@@ -93,7 +94,7 @@ dataLayer.push({
 ```
 
 <br>
-<h2>view_item</h2>
+## 1.0.2 view_item
 <p>Kullanıcı bir ürün görüntüleme işlemi yaptığında çalışmalıdır.</p>
 
 ```
@@ -129,7 +130,7 @@ dataLayer.push({
 ```
 
 <br>
-<h2>add_to_cart</h2>
+## 1.0.3 add_to_cart
 <p>Kullanıcı bir ürünü sepete eklediğinde çalışmalıdır.</p>
 
 ```
@@ -165,7 +166,7 @@ dataLayer.push({
 ```
 
 <br>
-<h2>add_to_wishlist</h2>
+## 1.0.4 add_to_wishlist
 <p>Kullanıcı bir ürünü favorilere eklediğinde çalışmalıdır.</p>
 
 ```
