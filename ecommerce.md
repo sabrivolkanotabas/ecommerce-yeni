@@ -1,7 +1,7 @@
 ## Konu Başlıkları
-	1.0 Gelişmiş E-Ticaret Takibi Entegrasyonu
-	2.0 User-ID Entegrasyonu
-	3.0 Gelişmiş Form Takibi Entegrasyonu
+	1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
+	2.0 | User-ID Entegrasyonu
+	3.0 | Gelişmiş Form Takibi Entegrasyonu
 
 ## 1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
 
