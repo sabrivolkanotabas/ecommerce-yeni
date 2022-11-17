@@ -692,7 +692,7 @@ dataLayer.push({
 
 ## 3.0.3 - form_click
 
-<p>Web sitesinde bulunan formlardaki her form adımında bir input değeri girildiğinde çalışmalıdır.</p>
+<p>Web sitesinde bulunan formlarda her bir input değeri girildiğinde çalışmalıdır.</p>
 
 ```
 window.dataLayer = window.dataLayer || [];
