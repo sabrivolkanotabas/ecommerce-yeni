@@ -3,7 +3,7 @@
 	# 2.0 User-ID
 	# 3.0 Formlar
 
-## 1.0  |E-Ticaret Dökümantasyonu
+## 1.0 | E-Ticaret Dökümantasyonu
 
 ## 1.0.1 view_item_list
 
@@ -61,7 +61,7 @@ dataLayer.push({
  }});
 ```
 <br>
-<h2>select_item</h2>
+## 1.0.2 select_item
 <p>Site içerisinde bir ürün tıklandığında çalışmalıdır</p>
 
 ```
@@ -94,7 +94,7 @@ dataLayer.push({
 ```
 
 <br>
-## 1.0.2 view_item
+## 1.0.3 view_item
 <p>Kullanıcı bir ürün görüntüleme işlemi yaptığında çalışmalıdır.</p>
 
 ```
@@ -130,7 +130,7 @@ dataLayer.push({
 ```
 
 <br>
-## 1.0.3 add_to_cart
+## 1.0.4 add_to_cart
 <p>Kullanıcı bir ürünü sepete eklediğinde çalışmalıdır.</p>
 
 ```
@@ -166,7 +166,7 @@ dataLayer.push({
 ```
 
 <br>
-## 1.0.4 add_to_wishlist
+## 1.0.5 add_to_wishlist
 <p>Kullanıcı bir ürünü favorilere eklediğinde çalışmalıdır.</p>
 
 ```
