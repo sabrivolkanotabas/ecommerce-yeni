@@ -1,13 +1,13 @@
-## Konular
-	# 1.0 E-Ticaret
-	# 2.0 User-ID
-	# 3.0 Formlar
+## Konu Başlıkları
+	# 1.0 Gelişmiş E-Ticaret Takibi Entegrasyonu
+	# 2.0 User-ID Entegrasyonu
+	# 3.0 Gelişmiş Form Takibi Entegrasyonu
 
-## 1.0 | E-Ticaret Dökümantasyonu
+## 1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
 
 ## 1.0.1 view_item_list
 
-> Site içerisinde bir ürün listesi görünümünde çalışmalıdır
+> Kullanıcıya belirli bir kategorideki öğelerin listesi sunulduğunda çalışmalıdır.
 
 ```
 dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.  
@@ -61,8 +61,10 @@ dataLayer.push({
  }});
 ```
 <br>
+
 ## 1.0.2 select_item
-<p>Site içerisinde bir ürün tıklandığında çalışmalıdır</p>
+
+<p>Kullanıcı, site içerisinde bir ürün tıklaması gerçekleştirdiğinde çalışmalıdır.</p>
 
 ```
 dataLayer.push({ ecommerce: null }); // Clear the previous ecommerce object.  
@@ -94,8 +96,10 @@ dataLayer.push({
 ```
 
 <br>
+
 ## 1.0.3 view_item
-<p>Kullanıcı bir ürün görüntüleme işlemi yaptığında çalışmalıdır.</p>
+
+<p>Kullanıcı, bir ürünü görüntülediğinde çalışmalıdır.</p>
 
 ```
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
@@ -130,8 +134,10 @@ dataLayer.push({
 ```
 
 <br>
+
 ## 1.0.4 add_to_cart
-<p>Kullanıcı bir ürünü sepete eklediğinde çalışmalıdır.</p>
+
+<p>Kullanıcı, bir ürünü sepete eklediğinde çalışmalıdır.</p>
 
 ```
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
@@ -166,8 +172,10 @@ dataLayer.push({
 ```
 
 <br>
+
 ## 1.0.5 add_to_wishlist
-<p>Kullanıcı bir ürünü favorilere eklediğinde çalışmalıdır.</p>
+
+<p>Kullanıcı, bir ürünü favorilere eklediğinde çalışmalıdır.</p>
 
 ```
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
