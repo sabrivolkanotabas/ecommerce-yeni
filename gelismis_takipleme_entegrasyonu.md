@@ -667,6 +667,8 @@ dataLayer.push({
     event: "form_submision",
     formID: "2", //Form için bir ID değeri gönderilmelidir.
     formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
+    formStep: "2", //Formda bulunulan adımın değeri gönderilmelidir.
+
 });
 
 ```
