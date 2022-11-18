@@ -655,6 +655,22 @@ window.dataLayer.push({
 
 <br>
 
+
+## 2.0.3 - user_data
+
+<p>Kullanıcının web sitesinde giriş sağladıktan sonra bulunduğu bütün sayfalarda çalışması gerekmektedir.</p>
+
+```
+window.dataLayer = window.dataLayer || []; 
+window.dataLayer.push({ 
+'event' : 'user_data',
+'userId' : {{dinamik değer}} //gönderilen değer, CRM panelindeki ‘üye id’ ile eşdeğer olmalıdır. 
+})
+
+```
+
+<br>
+
 ## 3.0 | Gelişmiş Form Takibi Entegrasyonu
 
 ## 3.0.1 - form_submission
