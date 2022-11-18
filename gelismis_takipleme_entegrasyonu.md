@@ -658,7 +658,7 @@ window.dataLayer.push({
 
 ## 2.0.3 - user_data
 
-<p>Kullanıcının web sitesinde giriş sağladıktan sonra bulunduğu bütün sayfalarda çalışması gerekmektedir.</p>
+<p>Kullanıcının web sitesinde üye girişi sağladıktan sonra bulunduğu bütün sayfalarda çalışması gerekmektedir.</p>
 
 ```
 window.dataLayer = window.dataLayer || []; 
