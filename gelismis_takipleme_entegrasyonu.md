@@ -579,7 +579,6 @@ window.dataLayer.push({
       item_list_id: "related_products",
       item_list_name: "Related Products",
       item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
       price: 9.99,
       quantity: 1
     },{
@@ -604,7 +603,6 @@ window.dataLayer.push({
       item_list_id: "related_products",
       item_list_name: "Related Products",
       item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
       price: 9.99,
       quantity: 1
     }]
@@ -645,7 +643,6 @@ window.dataLayer.push({
       item_list_id: "related_products",
       item_list_name: "Related Products",
       item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
       price: 9.99,
       quantity: 1
     }]
