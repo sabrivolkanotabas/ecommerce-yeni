@@ -558,12 +558,16 @@ window.dataLayer.push({
   event: 'view_promotion',
   ecommerce: {
     items: [{
+      item_id: '123456',
+      item_name: 'summer_necklace',
       promotion_id: 'sc2021',
       promotion_name: 'summer_campaign_2021',
       creative_name: 'family_in_bathing_suits_1',
       creative_slot: 'featured_items',
       location_id: 'ChIJ4Us9pPryjUYRn1MzXbSQuPA'
     },{
+      item_id: '123456',
+      item_name: 'summer_necklace',
       promotion_id: 'wc2020',
       promotion_name: 'winter_campaign_2020',
       creative_name: 'family_in_winter_clothes_1',
@@ -586,6 +590,8 @@ window.dataLayer.push({
   event: 'select_promotion',
   ecommerce: {
     items: [{
+      item_id: '123456',
+      item_name: 'summer_necklace',
       promotion_id: 'sc2021',
       promotion_name: 'summer_campaign_2021',
       creative_name: 'family_in_bathing_suits_1',
