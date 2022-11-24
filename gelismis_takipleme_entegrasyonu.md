@@ -2,6 +2,7 @@
 	1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
 	2.0 | User-ID Entegrasyonu
 	3.0 | Gelişmiş Form Takibi Entegrasyonu
+	4.0 | Enhanced Conversion Entegrasyonu
 
 ## 1.0 | Gelişmiş E-Ticaret Takibi Entegrasyonu
 
@@ -552,33 +553,23 @@ dataLayer.push({
 <p>Kullanıcı, web sitesindeki bir promosyonu görüntülediğinde çalışmalıdır.</p>
 
 ```
-dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({
-  event: "view_promotion",
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'view_promotion',
   ecommerce: {
-    items: [
-    {
-      item_id: "SKU_12345",
-      item_name: "Stan and Friends Tee",
-      affiliation: "Google Merchandise Store",
-      coupon: "SUMMER_FUN",
-      currency: "USD",
-      discount: 2.22,
-      index: 0,
-      item_brand: "Google",
-      item_category: "Apparel",
-      item_category2: "Adult",
-      item_category3: "Shirts",
-      item_category4: "Crew",
-      item_category5: "Short sleeve",
-      item_list_id: "related_products",
-      item_list_name: "Related Products",
-      item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-      price: 9.99,
-      quantity: 1
-    }
-    ]
+    items: [{
+      promotion_id: 'sc2021',
+      promotion_name: 'summer_campaign_2021',
+      creative_name: 'family_in_bathing_suits_1',
+      creative_slot: 'featured_items',
+      location_id: 'ChIJ4Us9pPryjUYRn1MzXbSQuPA'
+    },{
+      promotion_id: 'wc2020',
+      promotion_name: 'winter_campaign_2020',
+      creative_name: 'family_in_winter_clothes_1',
+      creative_slot: 'featured_items_2',
+      location_id: 'ChIJ4Us9pPryjUYRn1MzXbSQuPA'
+    }]
   }
 });
 ```
@@ -590,33 +581,17 @@ dataLayer.push({
 <p>Kullanıcı, web sitesindeki bir promosyona tıklama gerçekleştirdiğinde çalışmalıdır.</p>
 
 ```
-dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({
-  event: "select_promotion",
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'select_promotion',
   ecommerce: {
-    items: [
-    {
-      item_id: "SKU_12345",
-      item_name: "Stan and Friends Tee",
-      affiliation: "Google Merchandise Store",
-      coupon: "SUMMER_FUN",
-      currency: "USD",
-      discount: 2.22,
-      index: 0,
-      item_brand: "Google",
-      item_category: "Apparel",
-      item_category2: "Adult",
-      item_category3: "Shirts",
-      item_category4: "Crew",
-      item_category5: "Short sleeve",
-      item_list_id: "related_products",
-      item_list_name: "Related Products",
-      item_variant: "green",
-      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
-      price: 9.99,
-      quantity: 1
-    }
-    ]
+    items: [{
+      promotion_id: 'sc2021',
+      promotion_name: 'summer_campaign_2021',
+      creative_name: 'family_in_bathing_suits_1',
+      creative_slot: 'featured_items',
+      location_id: 'ChIJ4Us9pPryjUYRn1MzXbSQuPA'
+    }]
   }
 });
 ```
@@ -721,6 +696,31 @@ dataLayer.push({
     formStep: 2, //Formda bulunulan adımın değeri gönderilmelidir.
     formInput: "email" //Form içerisinde kullanıcının tıkladığı input alanı girilmelidir. 
 });
+
+```
+
+<br>
+
+## 4.0 | Enhanced Conversion Entegrasyonu
+
+## 4.0.1 - enhanced_conversion_data
+
+<p>Kullanıcı, web sitesinde ilgili dönüşümü tamamladığında çalışmalıdır.</p>
+
+```
+'enhanced_conversion_data': {
+        "email": 'E-mail adresi',
+        "phone_number": '+90 555 111 22 33',
+        "address": {
+            "first_name": 'İsim',
+            "last_name": 'Soyisim',
+            "street": 'Sokak',
+            "city": 'İl',
+            "region": 'İlçe',
+            "postal_code": 'Posta Kodu',
+            "country": 'Ülke'
+        }
+    };
 
 ```
 
