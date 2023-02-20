@@ -656,7 +656,7 @@ window.dataLayer.push({
 
 ## 2.0.1 - login
 
-<p>Kullanıcı, web sitesinde oturum açtığında çalışmalıdır.</p>
+<p>Kullanıcı, web sitesinde oturum açtığında - sitede bulunan gtm.js öncesinde - çalışmalıdır.</p>
 
 ```
 window.dataLayer = window.dataLayer || []; 
@@ -673,7 +673,7 @@ window.dataLayer.push({
 
 ## 2.0.2 - sign_up
 
-<p>Kullanıcı, web sitesinde kayıt işlemi gerçekleştirdiğinde çalışmalıdır.</p>
+<p>Kullanıcı, web sitesinde kayıt işlemi gerçekleştirdiğinde - sitede bulunan gtm.js öncesinde - çalışmalıdır.</p>
 
 ```
 window.dataLayer = window.dataLayer || []; 
@@ -691,7 +691,7 @@ window.dataLayer.push({
 
 ## 2.0.3 - user_data
 
-<p>Kullanıcının web sitesinde üye girişi sağladıktan sonra bulunduğu bütün sayfalarda çalışması gerekmektedir.</p>
+<p>Kullanıcının web sitesinde üye girişi sağladıktan sonra bulunduğu bütün sayfalarda - sitede bulunan gtm.js öncesinde - çalışması gerekmektedir.</p>
 
 ```
 window.dataLayer = window.dataLayer || []; 
