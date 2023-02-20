@@ -662,6 +662,8 @@ window.dataLayer.push({
 window.dataLayer = window.dataLayer || []; 
 window.dataLayer.push({ 
 'event' : 'login',
+'email_permission' : {{dinamik değer}},
+'sms_permission' : {{dinamik değer}},
 'userId' : {{dinamik değer}} //gönderilen değer, CRM panelindeki ‘üye id’ ile eşdeğer olmalıdır. 
 })
 
@@ -669,14 +671,16 @@ window.dataLayer.push({
 
 <br>
 
-## 2.0.2 - signup
+## 2.0.2 - sign_up
 
 <p>Kullanıcı, web sitesinde kayıt işlemi gerçekleştirdiğinde çalışmalıdır.</p>
 
 ```
 window.dataLayer = window.dataLayer || []; 
 window.dataLayer.push({ 
-'event' : 'signup',
+'event' : 'sign_up',
+'email_permission' : {{dinamik değer}},
+'sms_permission' : {{dinamik değer}},
 'userId' : {{dinamik değer}} //gönderilen değer, CRM panelindeki ‘üye id’ ile eşdeğer olmalıdır. 
 })
 
