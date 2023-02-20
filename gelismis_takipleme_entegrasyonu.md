@@ -714,7 +714,7 @@ window.dataLayer.push({
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
     event: "form_submision",
-    formID: "2345", //Form için bir ID değeri gönderilmelidir.
+    formId: "2345", //Form için bir ID değeri gönderilmelidir.
     formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
     formStep: "2", //Formda bulunulan adımın değeri gönderilmelidir.
 
@@ -732,7 +732,7 @@ dataLayer.push({
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
     event: "form_step",
-    formID: "2345", //Form için bir ID değeri gönderilmelidir.
+    formId: "2345", //Form için bir ID değeri gönderilmelidir.
     formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
     formStep: "2", //Formda bulunulan adımın değeri gönderilmelidir.
 });
@@ -749,7 +749,7 @@ dataLayer.push({
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
     event: "form_click",
-    formID: "2345", //Form için bir ID değeri gönderilmelidir.
+    formId: "2345", //Form için bir ID değeri gönderilmelidir.
     formCategory: "İletişim Formu", //Formun kategori değeri gönderilmelidir.
     formStep: 2, //Formda bulunulan adımın değeri gönderilmelidir.
     formInput: "email" //Form içerisinde kullanıcının tıkladığı input alanı girilmelidir. 
