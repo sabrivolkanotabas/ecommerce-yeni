@@ -145,6 +145,8 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "add_to_cart",
   ecommerce: {
+    currency: "USD",
+    value: 7.77,
     items: [
     {
       item_id: "SKU_12345",
@@ -301,6 +303,8 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   event: "begin_checkout",
   ecommerce: {
+    currency: "USD",
+    value: 7.77,
     items: [
     {
       item_id: "SKU_12345",
